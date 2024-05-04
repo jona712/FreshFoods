@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Foods - Restaurante de Comidas</title>
+
+    <!-- Etiqueta meta para descripción de la página -->
+    <meta name="description"
+        content="Fresh Foods es un restaurante de comidas frescas y deliciosas. Descubre nuestro menú y disfruta de una experiencia culinaria única.">
+
+    <!-- Etiqueta meta para palabras clave relacionadas con tu restaurante -->
+    <meta name="keywords" content="comidas frescas, restaurante, menú, alimentos saludables">
+
+    <!-- Etiqueta meta para el autor de la página -->
+    <meta name="author" content="Fresh Foods">
+
+    <!-- Etiqueta meta para idioma -->
+    <meta name="language" content="es">
+
+    <!-- Etiqueta para el ícono de la página -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/svg+xml">
+
+    <!-- Etiqueta para hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Etiqueta para preconectar a los servidores de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Etiqueta para cargar fuentes personalizadas desde Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+    <!--HEADER-->
+    <header class="header" data-header>
+        <div class="overlay" data-overlay></div>
+        <div class="header-top">
+            <div class="container">
+                <a href="tel:+50686811717" class="helpline-box">
+                    <div class="icon-box">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div class="wrapper">
+                        <p class="helpline-title">Contáctanos</p>
+                        <p class="helpline-number">+506 8681-1717</p>
+                    </div>
+                </a>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Fresh Logo">
+                </a>
+                <div class="header-btn-group">
+                    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar" data-navbar>
+                    <div class="navbar-top">
+                        <a href="index.html" class="logo">
+                            <img src="images/logo.png" alt="Fresh Logo">
+                        </a>
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </div>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link>Inicio</a>
+                        </li>
+                        <li>
+                            <a href="secciones/Contactanos.html" class="navbar-link" data-nav-link>Contáctanos</a>
+                        </li>
+                        <li>
+                            <a href="secciones/Acerca de.html" class="navbar-link" data-nav-link>Acerca de</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="hero" id="home">
+                <div class="container">
+                    <h3 id="mensaje"></h3><br>
+                    <h3 id="horarioApertura"></h3><br>
+                    <h2 class="h1 hero-title">Fresh Foods</h2>
+                    <p class="hero-text">
+                        ¡Ven y disfruta de los mejores sabores en nuestro restaurante! Nuestra
+                        selección de hamburguesas, papas fritas crujientes y otros platillos te dejará con ganas de
+                        más. ¡Te
+                        esperamos con platos irresistibles que te harán volver por más! ¡Visítanos hoy mismo!
+                    </p>
+                </div>
+            </section>
+            <section class="seccion-menus" id="destination">
+                <div class="container">
+                    <div class="informacion">
+                        <h2 class="h2 section-title">Menú</h2>
+                        <p class="section-text">
+                            "¡Te invitamos a descubrir nuestro delicioso menú! Sabores intensos, opciones frescas y
+                            platos exquisitos te esperan!"
+                        </p>
+                    </div>
+                    <section class="menus">
+                        <div class="popular-card">
+                            <h3 class="h3 card-title">Platos fuertes</h3>
+                            <ul class="list-menu">
+                                <li class="list-plato">
+                                    <h4>Chifrijo</h4>
+                                    <span></span>
+                                    <h4>₡3.000</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fajitas de Pescado</h4>
+                                    <span></span>
+                                    <h4>₡3.500</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Filet de Pescado</h4>
+                                    <span></span>
+                                    <h4>₡3.500</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Casados</h4>
+                                    <span></span>
+                                    <h4>₡3.000</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Arroz de la Casa</h4>
+                                    <span></span>
+                                    <h4>₡3.000</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Arroz con Pollo</h4>
+                                    <span></span>
+                                    <h4>₡3.500</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Arroz con Camarones</h4>
+                                    <span></span>
+                                    <h4>₡3.500</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Arroz con Mariscos</h4>
+                                    <span></span>
+                                    <h4>₡5.500</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Mariscada al Ajillo</h4>
+                                    <span></span>
+                                    <h4>₡5.500</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Carne Mexicana</h4>
+                                    <span></span>
+                                    <h4>₡2.800</h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Chicharron de Carne</h4>
+                                    <span></span>
+                                    <h4>₡2.700</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="popular-card">
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Empanadas</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Empanada de Pollo</h4>
+                                        <span></span>
+                                        <h4>₡800</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Arreglada</h4>
+                                        <span></span>
+                                        <h4>₡1.100</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Empanada de Carne</h4>
+                                        <span></span>
+                                        <h4>₡800</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Arreglada</h4>
+                                        <span></span>
+                                        <h4>₡1.200</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Papas</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Salchipapas</h4>
+                                        <span></span>
+                                        <h4>₡2.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Papas supremas</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Orden de papas</h4>
+                                        <span></span>
+                                        <h4>₡2.500</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Hamburguesas</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>1/4 libra</h4>
+                                        <span></span>
+                                        <h4>₡2.700</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Pollohamburguesa</h4>
+                                        <span></span>
+                                        <h4>₡3.400</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Freshamburguesa</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="popular-card">
+                            <h3 class="h3 card-title">Tacos</h3>
+                            <div>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Taco Fresh Sencillo</h4>
+                                        <span></span>
+                                        <h4>₡1.200</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Super Taco Fresh Pequeño</h4>
+                                        <span></span>
+                                        <h4>₡2.750</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Super Taco Fresh Mediano</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Super Taco Fresh Grande</h4>
+                                        <span></span>
+                                        <h4>₡4.000</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="h3 card-title">Pollos</h3>
+                            <div>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Fajitas de Pollo</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Con Patacones o Papas</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Filet de Pollo</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Con Vegetales o Papas</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Filet de Pollo</h4>
+                                        <span></span>
+                                        <h4>₡4.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">En salsa blanca</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Alitas BBQ / Bufalo</h4>
+                                        <span></span>
+                                        <h4>₡3.800</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Gordon Blue</h4>
+                                        <span></span>
+                                        <h4>₡4.000</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="popular-card">
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Patacones</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Patacones</h4>
+                                        <span></span>
+                                        <h4>₡2.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Patacon Supremo</h4>
+                                        <span></span>
+                                        <h4>₡3.200</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Burritos</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Burrito Crispy</h4>
+                                        <span></span>
+                                        <h4>₡3.100</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Burrito Supremo</h4>
+                                        <span></span>
+                                        <h4>₡3.100</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Nachos</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Nachos</h4>
+                                        <span></span>
+                                        <h4>₡4.000</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Canasta de Patacones</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Con Carne Mechada</h4>
+                                        <span></span>
+                                        <h4>₡3.000</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Con Pollo</h4>
+                                        <span></span>
+                                        <h4>₡3.000</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Con Camarones</h4>
+                                        <span></span>
+                                        <h4>₡3.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Acompañados de salsa chipotle, chimichurri, aguacate y
+                                            chile jalapeño</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="popular-card">
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Sopas de mariscos</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>En Crema</h4>
+                                        <span></span>
+                                        <h4>₡4.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>En Leche</h4>
+                                        <span></span>
+                                        <h4>₡4.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>En Agua</h4>
+                                        <span></span>
+                                        <h4>₡4.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Arroz y tortillas</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Camarones</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Camarones Al Ajillo</h4>
+                                        <span></span>
+                                        <h4>₡6.500</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Arroz y ensalada </h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Camarones Empanizados</h4>
+                                        <span></span>
+                                        <h4>₡6.500</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Papas y ensalada </h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Quesadillas</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>De Pollo</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>De Carne</h4>
+                                        <span></span>
+                                        <h4>₡3.500</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Queso cheddar, jamón, mozarella, salsa pizza, cebolla,
+                                            chile dulce, y papas</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="popular-card">
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Surtidos Fresh</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Surtido 1</h4>
+                                        <span></span>
+                                        <h4>₡5.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Carne mechada, pollo desmechado, chimichurri, frijol
+                                            molido, queso rallado, yuca frita, 6 patacones</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Surtido 2</h4>
+                                        <span></span>
+                                        <h4>₡8.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Dedos de pollo, carne mechada, frijol molido,
+                                            chimichurri, queso rallado, 6 patacones</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Surtido 3</h4>
+                                        <span></span>
+                                        <h4>₡9.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">Chicharron, carne mexicana, alitas, chimichurri, yuca
+                                            frita, 6 patacones</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Cajas fresh</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Caja 1</h4>
+                                        <span></span>
+                                        <h4>₡10.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">3 hamburguesas pequeñas, 1 taco sencillo, 1 burrito
+                                            supremo, 1 papas fritas</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Caja 2</h4>
+                                        <span></span>
+                                        <h4>₡8.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">5 alitas de pollo, 1 super taco fresh mediano, 1
+                                            empanada de polloarreglada, 4 patacones con frijoles molidos</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Caja 3</h4>
+                                        <span></span>
+                                        <h4>₡9.000</h4>
+                                    </li>
+                                    <li class="list-plato" id="plato-detalle">
+                                        <h4 class="plato-detalle">3 hamburguesas pequeñas, 6 alitas de pollo, 1
+                                            Salchipapas, 1 mininacho, 1 chicarron de carne</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                    <h2 class="h2 section-title">Batidos</h2>
+                    <section class="menus" id="batidos">
+                        <div class="popular-card">
+                            <h3 class="h3 card-title">En leche</h3>
+                            <h3 class="h3 card-title" id="batido-precio">₡2.200</h3>
+                            <ul class="list-menu">
+                                <li class="list-plato">
+                                    <h4>Arandano-Piña</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Arandano-Banano</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Chocolate-Banano</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Guanabana</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Sandia</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Mora</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Banano</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Maracuya</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Melon-Banano</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Melon-Papaya</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Papaya</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Mora</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Piña Colada</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="popular-card">
+                            <h3 class="h3 card-title">En Agua</h3>
+                            <h3 class="h3 card-title" id="batido-precio">₡1.500</h3>
+                            <ul class="list-menu">
+                                <li class="list-plato">
+                                    <h4>Naranja-Maracuya-Piña</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Arandano-Mora-Fresa</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Sandia-Limon</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Sandia</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Quema Grasa</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Sandia</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Maracuya-Coco-Mango</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Fresa-Naranja-Banano</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Piña-Naranja-Banano</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Papaya-Banano-Piña</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Mango-Manzana-Naranja</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Jengibre-Naranja-Limon</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                                <li class="list-plato">
+                                    <h4>Piña-Banano-Lecha de Soya</h4>
+                                    <span></span>
+                                    <h4></h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="popular-card">
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">En Agua</h3>
+                                <h3 class="h3 card-title" id="batido-precio">₡1.500</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Piña-Hierba Buena</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Limonada-Hierba Buena</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Sandia-Hierba Buena</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Papaya-Piña-Naranja</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="separador-platos">
+                                <h3 class="h3 card-title">Especiales</h3>
+                                <h3 class="h3 card-title" id="batido-precio">₡2.500</h3>
+                                <ul class="list-menu">
+                                    <li class="list-plato">
+                                        <h4>Arandano-Mora-Fresa</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Melocoton-Naranja-Mango</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Fresa-Chocolate</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Cafe Oreo</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Cafe Moca</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                    <li class="list-plato">
+                                        <h4>Cafe Irlandes</h4>
+                                        <span></span>
+                                        <h4></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-contact">
+                            <h4 class="contact-title">Contáctanos</h4>
+                            <p class="footer-text">
+                                ¿Deseas obtener más información? Estamos aquí para ayudarte. No dudes en ponerte en
+                                contacto con nosotros:
+                            </p><br>
+                            <ul>
+                                <li class="contact-item">
+                                    <ion-icon name="call-outline"></ion-icon>
+                                    <a href="tel:+50686811717" class="contact-link">+506 8681-1717</a>
+                                </li>
+                                <li class="contact-item">
+                                    <ion-icon name="location-outline"></ion-icon>
+                                    <a href="secciones/Contactanos.html">
+                                        <address>Cariari, Avenida Sura</address>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-contact">
+                            <h4 class="contact-title">Atención Al Cliente</h4>
+                            <p class="footer-text">
+                                Nuestro local está abierto para servirles todos los días de
+                                la semana. Nuestro compromiso es brindarles un servicios de alta calidad en un ambiente
+                                acogedor y agradable.
+                            </p><br>
+                            <li class="contact-item">
+                                <ion-icon name="calendar-number-outline"></ion-icon>
+                                <p class="contact-link">Todos los días</p>
+                            </li>
+                            <li class="contact-item">
+                                <ion-icon name="alarm-outline"></ion-icon>
+                                <p class="contact-link">11:00 a.m. a 9:00 p.m.</p>
+                            </li>
+                        </div>
+                        <div class="footer-contact">
+                            <h4 class="contact-title">Redes Sociales</h4>
+                            <p class="footer-text">
+                                Te invitamos cordialmente a unirte a nosotros en nuestras redes
+                                sociales. Mantente conectado y al tanto de todas nuestras novedades y eventos
+                                emocionantes.
+                            </p><br>
+                            <ul>
+                                <li class="contact-item">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                    <a href="https://www.facebook.com/freshcariari?mibextid=b06tZ0" class="contact-link"
+                                        target="_blank">Fresh</a>
+                                </li>
+                                <li class="contact-item">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <a href="https://api.whatsapp.com/send?phone=50686811717" class="contact-link"
+                                        target="_blank">+506 8681-1717</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">
+                        &copy; 2023 Fresh Foods. Todos los derechos reservados
+                    </p>
+                </div>
+            </footer>
+            <a href="#top" class="go-top" data-go-top>
+                <ion-icon name="arrow-up-outline"></ion-icon>
+            </a>
+            <script src="js/script.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

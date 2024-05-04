@@ -1,0 +1,33 @@
+.acerca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 3px solid orangered;
+  padding: 20px;
+}
+
+.text-acerca {
+  color: #fff;
+}
+
+#text-acerca {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.atte {
+  margin-top: 10px;
+  color: #fff;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .acerca {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+  }
+}
