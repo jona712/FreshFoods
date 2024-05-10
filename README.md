@@ -2,7 +2,7 @@
 
 Informative Website Of A Restaurant.
 
-Visit Here: https://fresh-foods-cr.netlify.app/
+Visit Here: [https://fresh-foods-cr.netlify.app/](https://fresh-foods-cr.netlify.app/){:target="_blank"}
 
 ## Description
 
