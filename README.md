@@ -2,7 +2,7 @@
 
 Informative Website Of A Restaurant.
 
-Visit Here: <a href="https://fresh-foods-cr.netlify.app/" target="_blank">https://fresh-foods-cr.netlify.app/</a>
+Visit Here: <a href="https://fresh-foods-cr.netlify.app/" onclick="window.open(this.href); return false;">https://fresh-foods-cr.netlify.app/</a>
 
 ## Description
 
