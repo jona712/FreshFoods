@@ -9,7 +9,6 @@ Visit Here:
 
 This project named Fresh Foods, is a website for a restaurant developed using HTML, CSS, and JavaScript. It showcases the menu of all dishes and beverages along with their prices, and additionally displays the restaurant's operating hours and location using the Google Maps API. Created in Visual Studio Code, 'Fresh Foods' is designed to provide users with comprehensive information about the restaurant's offerings, enabling them to explore various dishes and beverages, view prices, and check operating hours to plan their visit. The integration of the Google Maps API further facilitates users in easily locating the restaurant and planning their route."
 
-Espero que esto sea lo que estabas buscando. ¿Hay algo más en lo que pueda ayudarte?
 ## Technologies Used
 
 - ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) HTML - Markup language for creating web pages.
